@@ -36,7 +36,7 @@ html,body{
     display: flex;
     align-items: end;
     justify-content: space-between;
-    padding: 0.5rem;
+    padding: 1.0rem;
 }
 
 .box{
@@ -55,12 +55,12 @@ html,body{
     border: none;
     border-radius: 50%;
     background-color: yellow;
-    font-size: 1rem;
+    font-size: 2.0rem;
 }
 
 .box p{
     color: white;
-    font-size: 0.5rem;
+    font-size: 1.0rem;
 }
 
 .mid-left{
@@ -68,7 +68,7 @@ html,body{
     grid-area: mid-left;
     border: solid 3px black;
     border-radius: 15px;
-    padding: 1.0rem;
+    padding: 1.5rem;
     
 }
 
@@ -76,23 +76,23 @@ html,body{
     display: flex;
     align-items: end;
     gap: 0.5rem;
-    padding: 1.0rem 0;
+    padding: 1.5rem 0.5rem;
     
 }
 .logo img{
-    height: 2.0rem;
+    height: 2.5rem;
     object-fit: cover;
     border: none;
     border-radius: 50%;
 }
 
 .logo p{
-    font-size: 0.75rem;
-    font-weight: 700;
+    font-size: 1.0rem;
+    font-weight: 500;
 }
 
 .bottom-left{
-    padding: 1rem;
+    padding: 1.5rem;
     background-color: rgb(248, 173, 197);
     grid-area: bottom-left;
     border: solid 3px black;
@@ -153,16 +153,16 @@ html,body{
     grid-area: top-center-1;
     border: solid 3px black;
     border-radius: 15px;
-    padding: 0.5rem;
+    padding: 1.0rem;
 }
 
 .top-center-1 img{
-    height: 2.5rem;
+    height: 3.0rem;
     width: auto;
 }
 
 .top-center-1 h5{
-    font-size: 1.0rem;
+    font-size: 1.25rem;
 }
 
 .top-center-2{
@@ -171,7 +171,7 @@ html,body{
     border: solid 3px black;
     border-radius: 15px;
 
-    padding: 0.5rem;
+    padding: 1.0rem;
 
     display: flex;
     flex-direction: column;
@@ -186,18 +186,18 @@ html,body{
 }
 
 .top-center-2 p{
-    font-size: 0.7rem;
-    font-weight: 500;
+    font-size: 1.0rem;
+    font-weight: 600;
 }
 
 .elem-1 h3{
-    font-size: 1.5rem;
-    font-weight: 900;
+    font-size: 2.0rem;
+    font-weight: 700;
 }
 
 .elem-2 h3{
-    font-size: 1.0rem;
-    font-weight: 300;
+    font-size: 1.25rem;
+    font-weight: 500;
 }
 
 .elem-2 img{
@@ -243,8 +243,8 @@ html,body{
 }
 
 .bottom-center-2 img{
-    margin-top: -15px;
-    height: 10.0rem;
+    margin-top: -50px;
+    height: 14.0rem;
     width: auto; 
 }
 
@@ -253,7 +253,7 @@ html,body{
     grid-area: top-right;
     border: solid 3px black;
     border-radius: 15px;
-    padding: 0.5rem;
+    padding: 1.0rem;
 }
 
 .right-box{
@@ -263,16 +263,16 @@ html,body{
 
 .top-right h1{
     margin-top: 0.5rem;
-    font-size: 2.0rem;
+    font-size: 2.5rem;
     font-weight: 900;
 }
 
 .colour{
-    padding: 0.5rem;
+    padding: 1.0rem;
     background-color: pink;
     border: none;
     border-radius: 15px;
-    height: 6.5rem;
+    height: 7.5rem;
     font-size: 0.75rem;
     margin-top: 1.0rem;
 }
@@ -286,16 +286,16 @@ html,body{
 }
 
 .colour-elem i{
-    padding: 0.25rem;
+    padding: 0.5rem;
     color: yellow;
     background-color: black;
     border: none;
     border-radius: 50%;
-    font-size: 0.75rem;
+    font-size: 1.0rem;
 }
 
 .colour p{
-    font-size: 0.75rem;
+    font-size: 1.0rem;
     font-weight: 600;
 }
 
@@ -307,13 +307,12 @@ html,body{
     grid-area: bottom-right;
     border: solid 3px black;
     border-radius: 15px;
-    padding: 1rem;
+    padding: 1.5rem;
     display: flex;
     flex-direction: column;
     overflow: hidden;
 }
 
-/* ---------- TOP ROW ---------- */
 
 .top-row{
     display: flex;
@@ -354,31 +353,34 @@ html,body{
     background: url("./img/man-in-mob.png");
     background-size: 90% 100%;
     background-position: center;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
 }
 
 
 .content{
     position: absolute;
-    left: 2rem;
-    bottom: 2rem;
+    left: 2.50rem;
+    bottom: 1.0rem;
     color: white;
 }
 
 .content h2{
-    font-size: 1.5rem;
+    font-size: 2.0rem;
     line-height: 0.95;
     font-weight: 900;
     margin-bottom: 0.5rem;
 }
 
 .content button{
-    padding: 0.5rem 1.5rem;
+    padding: 1.0rem 2.0rem;
     border: none;
     border-radius: 999px;
     background-color: yellow;
-    font-size: 0.5rem;
+    font-size: 0.75rem;
     font-weight: 700;
-    cursor: pointer;
-    
+    cursor: pointer; 
+}
+
+button:hover{
+    box-shadow: 0 8px 32px rgb(220, 201, 29);
 }
